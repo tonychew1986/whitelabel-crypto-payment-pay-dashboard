@@ -1,0 +1,41 @@
+.indexIntro {
+  padding: 20px 40px;
+  width: calc(60% - 80px);
+  margin: auto;
+  text-align: center;
+}
+.indexIntro .indexIntroSubtitle {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.indexIntro .indexIntroLogo img {
+  width: 180px;
+}
+.indexInvoiceCheck {
+  width: calc(60% - 80px);
+  margin: auto;
+}
+.indexInvoiceCheck .indexInvoiceCheckTitle {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.indexInvoiceResult {
+  width: calc(60% - 80px);
+  margin: auto;
+  background-color: #fff;
+  padding: 15px 20px;
+}
+.indexInvoiceResult .indexInvoiceResultEntry {
+  padding-bottom: 15px;
+}
+.indexInvoiceResult .indexInvoiceResultEntry .indexInvoiceResultTitle {
+  font-weight: bold;
+  font-size: 12px;
+}
+.indexInvoiceResult .indexInvoiceResultEntry .indexInvoiceResultAnswer {
+  font-size: 20px;
+  word-wrap: break-word;
+  color: #888;
+}

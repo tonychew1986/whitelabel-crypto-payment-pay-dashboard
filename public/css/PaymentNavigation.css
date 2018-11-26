@@ -1,0 +1,63 @@
+.paymentNavigation .paymentNavigationLogo {
+  float: left;
+  padding: 13px 20px;
+}
+.paymentNavigation .paymentNavigationLogo .paymentNavigationLogoImage {
+  float: left;
+  padding-right: 30px;
+}
+.paymentNavigation .paymentNavigationLogo .paymentNavigationLogoImage img {
+  height: 43px;
+}
+.paymentNavigation .paymentNavigationLogo .paymentNavigationNetwork {
+  float: left;
+  display: none;
+  padding: 10px 15px;
+  text-align: left;
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 2px;
+}
+.paymentNavigation .paymentNavigationLogo .paymentNavigationNetwork .paymentNavigationNetworkTitle {
+  color: #444;
+  font-size: 10px;
+}
+.paymentNavigation .paymentNavigationActions {
+  float: right;
+  padding: 13px 20px;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsMenu {
+  float: left;
+  display: none;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop {
+  float: left;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop .paymentNavigationActionsCurrency {
+  float: left;
+  padding: 0px 35px;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop .paymentNavigationActionsCurrency .paymentNavigationActionsCurrencyTitle {
+  float: left;
+  padding-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop .paymentNavigationActionsCurrency .paymentNavigationActionsCurrencySelect {
+  float: left;
+  min-width: 220px;
+}
+.paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop .paymentNavigationActionsAccess {
+  float: left;
+}
+@media screen and (max-width: 720px) {
+  .paymentNavigation .paymentNavigationActions .paymentNavigationActionsMenu {
+    display: block;
+  }
+  .paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop {
+    display: none;
+  }
+}

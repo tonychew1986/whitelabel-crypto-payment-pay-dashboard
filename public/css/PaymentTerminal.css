@@ -1,0 +1,49 @@
+.paymentTerminal {
+  float: left;
+  padding: 20px 40px;
+  width: calc(50% - 2px);
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  text-align: center;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField {
+  padding-bottom: 10px;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldTitle {
+  font-weight: bold;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldQR {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressDisplay {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressCopy {
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: #111;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressCopy:hover {
+  background-color: #000;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressCopy .paymentTerminalFieldAddressCopyIcon {
+  float: left;
+  padding-right: 5px;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressCopy .paymentTerminalFieldAddressCopyIcon img {
+  width: 20px;
+}
+.paymentTerminal .paymentTerminalFields .paymentTerminalField .paymentTerminalFieldAddress .paymentTerminalFieldAddressCopy .paymentTerminalFieldAddressCopyText {
+  float: left;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}

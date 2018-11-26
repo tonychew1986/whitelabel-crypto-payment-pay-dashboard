@@ -1,0 +1,13 @@
+.paymentIntro {
+  float: left;
+  padding: 20px 40px;
+  width: calc(40% - 80px);
+}
+.paymentIntro .paymentIntroTitle {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.paymentIntro .paymentIntroDescription {
+  font-size: 14px;
+}

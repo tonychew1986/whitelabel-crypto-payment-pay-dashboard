@@ -1,0 +1,7 @@
+.stepsIndicator {
+  padding: 15px 0px;
+}
+.stepsIndicator .stepsIndicatorEntry {
+  float: left;
+  padding: 20px;
+}

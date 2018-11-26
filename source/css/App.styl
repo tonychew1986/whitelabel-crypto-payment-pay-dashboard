@@ -1,0 +1,212 @@
+@import 'vars.styl'
+
+//Pages
+@import 'Home.styl'
+
+//Components
+@import 'PaymentNavigation.styl'
+@import 'PaymentInvoiceFooter.styl'
+@import 'PaymentIntro.styl'
+@import 'PaymentForm.styl'
+@import 'Invoice.styl'
+@import 'PaymentInvalid.styl'
+@import 'PaymentCompleted.styl'
+@import 'PaymentTerminal.styl'
+@import 'PaymentCountdown.styl'
+@import 'TransactionReceipt.styl'
+@import 'PaymentCryptocurrencySelection.styl'
+@import 'PaymentDetails.styl'
+@import 'StepsIndicator.styl'
+@import 'ReactSteps.styl'
+@import 'ReactSelect.styl'
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+$defaultBackgroundColor = #EEE
+$defaultTxtColor = lighten(black, 15%)
+
+$blackBackgroundColor = #111
+$blackTxtColor = darken(white, 15%)
+
+$siteDullBlue = #487eb0
+
+*
+  box-sizing border-box
+
+body
+  font-family 'Raleway', sans-serif
+  background-attachment fixed
+  font-size 14px
+  margin 0px
+  padding 0px
+
+html, body {
+    width: 100%;
+    height: 100%;
+    //background linear-gradient(-180deg , #000 0%, #111 50%)
+}
+
+body > div {
+    // height: 100%;
+    // overflow: scroll;
+    // -webkit-overflow-scrolling: touch;
+}
+
+#pageApplication
+  height 100%
+
+.schemeDefault
+  color $defaultTxtColor
+  background $defaultBackgroundColor
+
+  .page
+    color $defaultTxtColor
+    background $defaultBackgroundColor
+
+.schemeBlack
+  color $blackTxtColor
+  background $blackBackgroundColor
+
+  .page
+    color $blackTxtColor
+    background $blackBackgroundColor
+
+    .invoiceCryptocurrencySelectionEntry
+      padding 10px
+      cursor pointer
+      text-align center
+      width 100%
+      border 1px solid #333
+      border-radius 2px
+      margin 5px 0px
+      background-color #444
+
+    .invoiceCryptocurrencySelectionEntrySelected
+      font-weight bold
+      background-color #222
+
+h1
+  margin 20px 0
+
+a
+  padding 0px
+  text-decoration none
+  color inherit
+
+input
+  width 100%
+  font-size: 14px;
+  padding: 10px 15px;
+  margin 5px 0px 10px 0px
+
+pre
+  font-family mono
+  line-height 1.5
+  border-radius 3px
+  border 1px solid border-gray
+
+button
+  outline none
+  border none
+  padding 10px 15px
+  border-radius 2px
+  text-transform uppercase
+  font-size 12px
+  font-weight bold
+  width 100%
+  background-color $siteDullBlue
+  color white
+  cursor pointer
+
+  &:hover
+    background-color darken($siteDullBlue, 10%)
+
+button.negative
+  background-color #999
+
+  &:hover
+    background-color darken(#999, 10%)
+
+
+.hidden
+  display none
+
+.num
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+.disabled
+  opacity 0.5
+  pointer-events none
+
+.page
+  //padding 20px
+  //padding-top 80px
+  //position absolute
+  top 0px
+  width 100%
+
+.siteTitle
+  display flex
+  align-items center
+
+
+  img
+    display inline-block
+    width 80px
+    height 80px
+    margin-right 20px
+
+
+.hl
+  font-weight bold
+  color react-blue
+
+.clear
+  clear both
+
+.hide
+  display none
+
+.App
+  min-width 320px
+  //height 100%
+  //position absolute
+  width 100%
+
+  h1
+    color react-blue
+    font-weight 300
+    font-size 52px
+
+.paymentHighlight
+  font-size 28px
+
+.paymentHighlightTitle
+  font-size 14px
+  font-weight bold
+  color #999
+
+.paymentSteps
+  margin 10px 40px
+  padding 15px 0px
+
+  .paymentStepPrevious
+    float left
+
+    img
+      width 11px
+      margin-right 5px
+
+  .paymentStepNext
+    float right
+
+    img
+      width 11px
+      margin-left 5px
+
+
+.currency
+  text-transform uppercase

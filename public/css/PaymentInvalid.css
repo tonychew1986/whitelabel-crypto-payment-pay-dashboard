@@ -1,0 +1,26 @@
+.paymentInvalid {
+  text-align: center;
+}
+.paymentInvalid .paymentInvalidIcon {
+  padding: 50px;
+  background-color: #111;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+.paymentInvalid .paymentInvalidTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+.paymentInvalid .paymentInvalidDescription {
+  color: #999;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 16px;
+}

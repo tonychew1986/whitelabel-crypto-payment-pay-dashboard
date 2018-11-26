@@ -1,0 +1,40 @@
+.paymentCountdown {
+  float: left;
+  padding: 20px 30px;
+  width: calc(25% - 0px);
+}
+.paymentCountdown .countdownLoader {
+  text-align: center;
+  margin-top: 90px;
+}
+.paymentCountdown .countdownLoader .countdownLoaderIcon {
+  padding: 15px;
+}
+.paymentCountdown .countdownLoader .countdownLoaderText {
+  font-size: 16px;
+}
+.paymentCountdown .countdownTimer {
+  text-align: center;
+  margin-top: 40px;
+}
+.paymentCountdown .countdownTimerEntry .countdownTimerEntryCheck .countdownTimerEntryCheckExplorers {
+  padding-top: 20px;
+}
+.paymentCountdown .countdownTimerEntry .countdownTimerEntryCheck .countdownTimerEntryCheckExplorers .countdownTimerEntryCheckExplorer {
+  float: left;
+  padding: 10px 5px;
+  width: 50%;
+}
+.paymentCountdown .countdownTimerEntry .countdownTimerEntryCheck .countdownTimerEntryCheckExplorers .countdownTimerEntryCheckExplorer .countdownTimerEntryCheckExplorerTitle {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.paymentCountdown .countdownTimerEntry .countdownTimerEntryCheck .countdownTimerEntryCheckExplorers .countdownTimerEntryCheckExplorer .countdownTimerEntryCheckExplorerSelector {
+  border: 2px solid #ddd;
+  width: 65px;
+  height: 40px;
+  margin: auto;
+}
+.paymentCountdown .countdownTimerEntry .countdownTimerEntryCheck .countdownTimerEntryCheckExplorers .countdownTimerEntryCheckExplorer .countdownTimerEntryCheckExplorerSelector img {
+  width: 32px;
+}

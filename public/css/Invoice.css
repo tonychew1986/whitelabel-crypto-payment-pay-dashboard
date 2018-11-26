@@ -1,0 +1,173 @@
+.paymentWrapper {
+  padding: 15px 100px;
+  min-width: 540px;
+  max-width: 1200px;
+  margin: auto;
+}
+.paymentWrapper .paymentWrapperInner {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+.paymentWrapperInnerContent {
+  padding: 15px 20px;
+}
+.paymentInvoiceHeader {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 20px;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderLeft {
+  float: left;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderRight {
+  float: right;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderRight .paymentInvoiceHeaderRightFigures {
+  float: left;
+  text-align: right;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderRight .paymentInvoiceHeaderRightIcon {
+  float: right;
+  padding-left: 10px;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderRight .paymentInvoiceHeaderRightIcon img {
+  width: 30px;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderName {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderId {
+  font-size: 11px;
+  color: #888;
+}
+.paymentInvoiceHeader .paymentInvoiceHeaderDescription {
+  font-size: 12px;
+}
+.invoiceExpired {
+  text-align: center;
+  padding: 15px 20px;
+}
+.invoiceExpired .invoiceExpiredTitle {
+  font-size: 24px;
+  padding: 10px;
+}
+.invoiceExpired .invoiceExpiredLink {
+  font-size: 12px;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries {
+  padding: 5px 0px;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries .invoiceCryptocurrencySelectionEntry {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  margin: 5px 0px;
+  background-color: #eee;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries .invoiceCryptocurrencySelectionEntry img {
+  width: 30px;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries .invoiceCryptocurrencySelectionEntry .invoiceCryptocurrencySelectionEntryIcon {
+  float: left;
+  margin-right: 10px;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries .invoiceCryptocurrencySelectionEntry .invoiceCryptocurrencySelectionEntryText {
+  float: left;
+  margin-top: 6px;
+  font-size: 16px;
+}
+.invoiceCryptocurrencySelection .invoiceCryptocurrencySelectionEntries .invoiceCryptocurrencySelectionEntrySelected {
+  font-weight: bold;
+  background-color: #fff;
+}
+.invoiceTerminal {
+  text-align: center;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalCountdown {
+  padding-bottom: 10px;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField {
+  padding-bottom: 10px;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldTitle {
+  font-weight: bold;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldQR {
+  padding: 20px;
+  max-width: 200px;
+  background-color: #fff;
+  display: inline-block;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldQR canvas {
+  width: 100%;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressDisplay {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressDisplayMobile {
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressCopy {
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: #eee;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressCopy:hover {
+  background-color: #fff;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressCopy .invoiceTerminalFieldAddressCopyIcon {
+  float: left;
+  padding-right: 5px;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressCopy .invoiceTerminalFieldAddressCopyIcon img {
+  width: 20px;
+}
+.invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressCopy .invoiceTerminalFieldAddressCopyText {
+  float: left;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.paymentWrapperInnerButtons {
+  padding: 15px 20px;
+  overflow: auto;
+}
+.paymentWrapperInnerButtons .invoiceStepsButtonPrevious {
+  float: left;
+}
+.paymentWrapperInnerButtons .invoiceStepsButtonNext {
+  float: right;
+}
+@media screen and (max-width: 720px) {
+  .paymentWrapper {
+    padding: 15px 20px;
+    width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+  }
+  .paymentNavigation .paymentNavigationActions .paymentNavigationActionsMenu {
+    display: block;
+  }
+  .paymentNavigation .paymentNavigationActions .paymentNavigationActionsDesktop {
+    display: none;
+  }
+  .invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressDisplay {
+    display: none;
+  }
+  .invoiceTerminal .invoiceTerminalFields .invoiceTerminalField .invoiceTerminalFieldAddress .invoiceTerminalFieldAddressDisplayMobile {
+    display: block;
+  }
+}

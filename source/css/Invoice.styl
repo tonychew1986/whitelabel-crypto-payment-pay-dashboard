@@ -1,0 +1,184 @@
+
+.paymentWrapper
+  padding 15px 100px
+  min-width 540px
+  max-width 1200px
+  margin auto
+
+  .paymentWrapperInner
+    background-color rgba(0,0,0,0.1)
+    border-radius 2px
+    border 1px solid #CCC
+
+.paymentWrapperInnerContent
+  padding 15px 20px
+
+.paymentInvoiceHeader
+  border-bottom 1px solid #CCC
+  padding 15px 20px
+
+  .paymentInvoiceHeaderLeft
+    float left
+
+  .paymentInvoiceHeaderRight
+    float right
+
+    .paymentInvoiceHeaderRightFigures
+      float left
+      text-align right
+
+    .paymentInvoiceHeaderRightIcon
+      float right
+      padding-left 10px
+
+      img
+        width 30px
+
+  .paymentInvoiceHeaderName
+    font-weight bold
+    font-size 18px
+    text-transform uppercase
+
+  .paymentInvoiceHeaderId
+    font-size 11px
+    color #888
+
+  .paymentInvoiceHeaderDescription
+    font-size 12px
+
+.invoiceExpired
+  text-align center
+  padding 15px 20px
+
+  .invoiceExpiredTitle
+    font-size 24px
+    padding 10px
+
+  .invoiceExpiredLink
+    font-size 12px
+
+.invoiceCryptocurrencySelection
+
+  .invoiceCryptocurrencySelectionEntries
+    padding 5px 0px
+
+    .invoiceCryptocurrencySelectionEntry
+      padding 10px
+      cursor pointer
+      text-align center
+      width 100%
+      border 1px solid #BBB
+      border-radius 2px
+      margin 5px 0px
+      background-color #EEE
+
+      img
+        width 30px
+
+      .invoiceCryptocurrencySelectionEntryIcon
+        float left
+        margin-right 10px
+
+      .invoiceCryptocurrencySelectionEntryText
+        float left
+        margin-top 6px
+        font-size 16px
+
+    .invoiceCryptocurrencySelectionEntrySelected
+      font-weight bold
+      background-color #FFF
+
+.invoiceTerminal
+  text-align center
+
+  .invoiceTerminalFields
+
+    .invoiceTerminalCountdown
+      padding-bottom 10px
+
+    .invoiceTerminalField
+      padding-bottom 10px
+
+      .invoiceTerminalFieldTitle
+        font-weight bold
+
+      .invoiceTerminalFieldQR
+        padding 20px
+        max-width 200px
+        background-color white
+        display inline-block
+
+        canvas
+          width 100%
+
+      .invoiceTerminalFieldAddress
+        .invoiceTerminalFieldAddressDisplay
+          display block
+          font-size 18px
+          font-weight bold
+
+        .invoiceTerminalFieldAddressDisplayMobile
+          display none
+          font-size 16px
+          font-weight bold
+
+        .invoiceTerminalFieldAddressCopy
+          padding 5px 10px
+          border-radius 2px
+          background-color #EEE
+          display inline-block
+          margin-top 10px
+          cursor pointer
+
+          &:hover
+            background-color #FFF
+
+          .invoiceTerminalFieldAddressCopyIcon
+            float left
+            padding-right 5px
+
+            img
+              width 20px
+
+          .invoiceTerminalFieldAddressCopyText
+            float left
+            margin-top 3px
+            text-transform uppercase
+            font-size 12px
+            font-weight bold
+
+
+.paymentWrapperInnerButtons
+  padding 15px 20px
+  overflow auto
+
+  .invoiceStepsButtonPrevious
+    float left
+
+  .invoiceStepsButtonNext
+    float right
+
+@media screen and (max-width: 720px)
+  .paymentWrapper
+    padding 15px 20px
+    width calc(100% - 40px)
+    min-width calc(100% - 40px)
+    max-width calc(100% - 40px)
+
+  .paymentNavigation
+    .paymentNavigationActions
+      .paymentNavigationActionsMenu
+        display block
+
+      .paymentNavigationActionsDesktop
+        display none
+
+  .invoiceTerminal
+    .invoiceTerminalFields
+      .invoiceTerminalField
+        .invoiceTerminalFieldAddress
+          .invoiceTerminalFieldAddressDisplay
+            display none
+
+          .invoiceTerminalFieldAddressDisplayMobile
+            display block

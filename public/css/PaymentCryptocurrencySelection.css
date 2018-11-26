@@ -1,0 +1,30 @@
+.paymentCryptocurrencySelection {
+  float: left;
+  padding: 20px 40px;
+  width: calc(25% - 0px);
+}
+.paymentCryptocurrencySelection .paymentCryptocurrencySelectionSection {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+.paymentCryptocurrencySelection .paymentCryptocurrencySelectionEntries {
+  padding: 5px 0px;
+}
+.paymentCryptocurrencySelection .paymentCryptocurrencySelectionEntries .paymentCryptocurrencySelectionEntry {
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+}
+.paymentCryptocurrencySelection .paymentCryptocurrencySelectionEntries .paymentCryptocurrencySelectionEntry img {
+  width: 30px;
+}
+.paymentCryptocurrencySelection .paymentCryptocurrencySelectionEntries .paymentCryptocurrencySelectionEntrySelected {
+  font-weight: bold;
+  background-color: #666;
+}
+.countdownTimer {
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+
+.paymentTerminal
+  float left
+  padding 20px 40px
+  width calc(50% - 2px)
+  border-left 1px solid #000
+  border-right 1px solid #000
+  text-align center
+
+  .paymentTerminalFields
+    .paymentTerminalField
+      padding-bottom 10px
+
+      .paymentTerminalFieldTitle
+        font-weight bold
+
+      .paymentTerminalFieldQR
+        padding 10px
+        background-color white
+        display inline-block
+
+      .paymentTerminalFieldAddress
+        .paymentTerminalFieldAddressDisplay
+          font-size 18px
+          font-weight bold
+          padding-right 20px
+
+        .paymentTerminalFieldAddressCopy
+          padding 5px 10px
+          border-radius 2px
+          background-color #111
+          display inline-block
+          margin-top 10px
+          cursor pointer
+
+          &:hover
+            background-color #000
+
+          .paymentTerminalFieldAddressCopyIcon
+            float left
+            padding-right 5px
+
+            img
+              width 20px
+
+          .paymentTerminalFieldAddressCopyText
+            float left
+            margin-top 3px
+            text-transform uppercase
+            font-size 12px
+            font-weight bold
